@@ -1,2 +1,6 @@
-This project implements a secure JWT-based authentication system with a clean, user-friendly login interface. The backend is built with Node.js and Express, handling user registration, login, and token validation. Passwords are hashed using bcrypt, and authenticated sessions are managed via JSON Web Tokens (JWT) to ensure stateless, scalable security.
-The application is fully Dockerized, making it portable and easy to deploy across environments. A Dockerfile defines the runtime image, while docker-compose.yml orchestrates services such as the Node.js app and MongoDB database. This setup ensures consistent builds, simplified dependency management, and seamless deployment.
+This project implements a secure JWT-based authentication system . 
+The backend is built with Node.js and Express, handling user registration, login, and token validation. 
+Passwords are hashed using bcrypt, and authenticated sessions are managed via JSON Web Tokens (JWT) to ensure stateless, scalable security.
+The application is fully Dockerized, making it portable and easy to deploy across environments.
+A Dockerfile defines the runtime image, while docker-compose.yml orchestrates services such as the Node.js app and MongoDB database. 
+
